@@ -1,0 +1,155 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+:root {
+    --primary-color: #005b96;
+    --secondary-color: #0099cc;
+    --light-bg: #eaf3fa;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 8px 16px;
+ 
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+
+main {
+    padding: 20px;
+}
+
+section, article {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+ 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    
+  
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+   
+}
+
+
+footer {
+    text-align: center;
+    background-color: var(--light-bg);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+hr {
+    border: 1px solid var(--secondary-color);
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+   
+}
+
+
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    section, article {
+        width: 95%;
+    }
+}
