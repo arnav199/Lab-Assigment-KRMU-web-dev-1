@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnav Kapil | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <h1>Arnav Kapil</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>                
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-text">
+                <h2>Hi, I am <span class="highlight">Arnav Kapil</span></h2>
+                <p>A B-Tech CSE (AI&ML) student at K.R. Mangalam University.</p>
+                <p>Building modern web applications and exploring AI technology.</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <img src="photo.jpg" alt="Arnav Kapil Profile" class="profile-pic">
+        </section>
+
+        <section id="about" class="section-box">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I have chosen this career path because of my deep interest in technology. I am hardworking and consistent.</p>
+                <ul class="info-list">
+                    <li><strong>Name:</strong> Arnav Kapil</li>
+                    <li><strong>Age:</strong> 18</li>
+                    <li><strong>Roll No:</strong> 2501730045</li>
+                    <li><strong>Course:</strong> B-Tech CSE (AI&ML)</li>
+                    <li><strong>Contact:</strong> 8544744056</li>
+                    <li><strong>Hobbies:</strong> Gaming</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="section-box">
+            <h2>Technical Skills</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Web Dev</h3>
+                    <p>HTML, CSS</p>
+                </div>
+                <div class="card">
+                    <h3>Languages</h3>
+                    <p>Python, C</p>
+                </div>
+                <div class="card">
+                    <h3>Tools</h3>
+                    <p>VS Code, Git</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-box">
+            <h2>My Projects</h2>
+            <div class="grid-container">
+                <div class="card project-card">
+                    <h3>Website Development</h3>
+                    <p>A responsive portfolio website created using HTML and CSS.</p>
+                </div>
+                <div class="card project-card">
+                    <h3>Calculator</h3>
+                    <p>A fully functional arithmetic calculator built using Python.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-box contact-section">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="Male"> <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female"> <label for="female">Female</label>
+                </div>
+
+                <label for="prop">Message:</label>
+                <textarea id="prop" rows="5" placeholder="Your message..."></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Arnav Kapil. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
